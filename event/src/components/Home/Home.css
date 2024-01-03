@@ -1,0 +1,21 @@
+.hme{
+    margin-top: 120px;
+     color: black;
+     font-weight: bolder;
+     align-items: center;
+     font-size: 50px;
+     background-color: #ece4e4;
+     text-align: center;
+     
+     
+ }
+ img{
+     justify-content: space-between;
+ }
+
+ .underline{
+    width:61px;
+    height: 6px;
+    background: #000000;
+    border-radius: 9px;
+  }

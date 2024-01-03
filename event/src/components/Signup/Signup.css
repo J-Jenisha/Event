@@ -1,0 +1,154 @@
+.back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../images/backk.jpg"); 
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 600px;
+  box-shadow: 5px 10px 25px black;
+  background:transparent;
+  border: 2px solid #676767;
+  backdrop-filter: blur(30 px);
+  padding: bottom 60px;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.texty{
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline{
+  width:61px;
+  height: 6px;
+  background: #000000;
+  border-radius: 9px;
+}
+
+.inputs{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 20px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border:20px solid rgb(110,107,107);
+  width: 400px;
+  height: 60px;
+  background:transparent;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid #676767;
+}
+
+.input img{
+  margin:0px 30px;
+  line-height: 6px;
+}
+
+.input input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 35px 0 5px;
+}
+
+.forgot-password
+{
+  padding-left: 70px;
+  color: #18181a;
+  font-size: 1rem;
+  font-weight:500;
+  justify-content: space-between;
+  display: flex;
+  margin: 15px 0px 15px;
+  margin-left: 0%;
+}
+
+.forgot-password span{
+  color: #050505;
+  text-decoration: none;
+}
+
+.forgot-password span:hover{
+  text-decoration: underline;
+}
+
+.submit-container{
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 59px;
+  color: #fff;
+  background: #000000;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit:hover
+{
+  background-color: #fff;
+  color: #000000;
+}
+
+.gray
+{
+  background: #eaeaea;
+  color: #676767;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  width: 200px;
+  height: 59px;
+  color: #fff;
+  background: #000000;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}

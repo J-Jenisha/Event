@@ -1,0 +1,23 @@
+function subscribeToSockets () {
+  var sockData = document.getElementById("mySockData");
+  var socketUrl = (window && window.__socket_url) || (sockData && sockData.getAttribute("data-url")) || null;
+  var userId = (window && window.__user_id) || (sockData && parseInt(sockData.getAttribute("data-userId"), 10)) || null;
+
+  if (userId && socketUrl) {
+    var ioEvents = io(socketUrl, {
+      transports: ["websocket", "polling"]
+    });
+    
+    ioEvents.on("event", function (data) {
+      // sometimes this happens.
+      if (typeof window.updateProgressBar !== "function") {
+        return;
+      }
+      window.updateProgressBar(data);
+    });
+    
+    if (userId) {
+      ioEvents.emit("room", "user_" + userId);
+    }
+  }
+}

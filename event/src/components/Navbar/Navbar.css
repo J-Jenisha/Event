@@ -79,14 +79,14 @@
 .btn{
   width: 130px;
   height: 50px;
-  background: transparent;
+  background-color: #0d0d0e;
   border: 2px solid black;
   outline: none;
-  font-weight: 500;
-  border-radius: 6px;
+  font-weight: 700;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 1.1em;
-  color: #fff;
+  color: #ffffff;
   margin-left: 0px;
   justify-content: space-between;
   align-items: right;
@@ -96,24 +96,14 @@
 }
 
 .btn:hover{
-  background: #0d0d0e;
-  color: #ced3d7;
+  background: #2a2929;
+  
 }
 
 .link{
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   font-size: 1.1em;
   font-weight: 700;
 }
 
-.link:hover{
-  color:#ffffff;
-}
-
-.hello{
-  background :#000000;
-  color: #eaeaea;
-  text-align: right;
-  margin-top: 100px ;
-}

@@ -7,6 +7,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  margin-top: 120px;
 }
 
 .container{
@@ -110,6 +111,7 @@
   display: flex;
   gap: 30px;
   margin: 60px auto;
+  align-items: center;
 }
 
 .submit{
@@ -124,6 +126,7 @@
   font-size: 19px;
   font-weight: 700;
   cursor: pointer;
+  margin-left: 160px;
 }
 
 .submit:hover

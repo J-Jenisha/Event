@@ -40,7 +40,7 @@ const Whatwedo = () => {
                                     <Button href="http://localhost:3000/about"variant="outlined" size="medium">
                                         Wishlist
                                     </Button>
-                                    <Button href="http://localhost:3000/book"variant="contained" size="medium">
+                                    <Button href="http://localhost:3000/bookevents"variant="contained" size="medium">
                                         Book Event
                                     </Button>
                                 </CardActions>

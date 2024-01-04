@@ -1,0 +1,12 @@
+.title{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.events{
+    padding :8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #282727;
+}

@@ -1,0 +1,112 @@
+.hy{
+    color :white;
+    text-overflow: ellipsis;
+    text-decoration: solid;
+    padding:10px;
+    background-size: auto;
+    background-color: #555;
+  }
+
+  .he{
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .by{
+   background-color:#ece4e4;
+  }
+  .yp{
+    color:black;
+    font-size: larger;
+    font-style: oblique;
+  }
+  
+  .imgy{
+    border-radius: 10px;
+    border-image-repeat: repeat;
+    transform: transform 0.2s ease-in-out;
+  }
+  
+  .imgy:hover{
+    transform: scale(1.09);
+  }
+
+ 
+  .by{
+    border-radius: 30px;
+    color: black;
+    background-color :#ece4e4;
+    padding: 10px;
+    padding-right: 700px;
+  }
+ 
+  /* .soon .man{
+    
+    
+  } */
+  .soon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ece4e4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .soonnn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ece4e4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .soon img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .soon img:hover {
+    transform: scale(1.05);
+  }
+  
+  .soon img::after {
+    content: attr(alt);
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+  }
+  .hel{
+    align-self: center;
+    font-size: 19px;
+    font-weight: 900;
+    color: #555;
+
+  }
+
+  .jey{
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .yem{
+    height: 450px;
+    width: 750px;
+    transition: transform 0.03s ease-in-out;
+  }
+
+  .yem:hover{
+    transform: scale(1.05);
+  }
+  

@@ -8,7 +8,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Whatwedo from './components/WhatWeDo/Whatwedo';
-
 import Wedding from './components/Pages/Wedding';
 import School from './components/Pages/School';
 import Housewarming from './components/Pages/Housewarming';
@@ -23,7 +22,9 @@ import Terms from './components/Pages/Terms';
 import Privacy from './components/Pages/Privacy';
 import FAQ from './components/Pages/FAQ';
 import EventRequirementsForm from './components/Events/Bookevents';
-
+import Cart from './components/Cart/Cart';
+import Payment from './components/Payment/Payment';
+import ThankYouMessage from './components/Thankyou/ThankyouMessage';
 function App() {
 
   return (
@@ -50,6 +51,9 @@ function App() {
         <Route exact path='/terms' element={<Terms/>} />
         <Route exact path='/privacy' element={<Privacy/>} />
         <Route exact path='/faq' element={<FAQ/>} />
+        <Route exact path='/cart' element={<Cart/>} />
+        <Route exact path='/payment' element={<Payment/>} />
+        <Route exact path='/thankyou' element={<ThankYouMessage/>} />
         
       </Routes>
       <Footer/>

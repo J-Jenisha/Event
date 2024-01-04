@@ -45,7 +45,8 @@
   
 .lll {
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 18px;
   }
   
   .iii[type='text'],
@@ -116,21 +117,22 @@
 
 .pay{
   display: flex;
-    
+    margin-top: 120px;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 50px;
+    padding-right: 100px;
+    padding-left: 120px;
     background-color: #ece4e4;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
-
 
 .pay img {
   max-width: 100%;
-  height: 150px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  height: 250px;
+  /* background: transparent; */
+  border-radius: 40px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -149,4 +151,45 @@
   bottom: -25px;
   left: 0;
   right: 0;
+}
+
+.man #she
+{
+  height: 5cm;
+  width: 5cm;
+  transition: transform 0.3s ease-in-out;
+}
+
+.man #she:hover{
+  transform: scale(1.08);
+}
+
+.hels{
+  font-size: 20px;
+  font-weight: 700;
+  /* padding-left: 30px; */
+  align-items: center;
+  justify-content: center;
+}
+
+.cus{
+  font-size: 22px;
+  color: #676767;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration:wavy;
+  
+}
+.cus:hover{
+  color: #000000;
+}
+
+.cust{
+  font-size: 30px;
+  color: #282727;
+  font-weight: 900;
+  text-align: center;
+
 }

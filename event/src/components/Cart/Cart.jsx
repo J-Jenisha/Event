@@ -9,11 +9,13 @@ function Cart() {
         </h1>
         <center><p className='py'><b className='jey'>"Every event comes once in our life so they give us very precious memories to cherish for a life time."</b></p></center>
         <center><p className='py'><b className='jey'>" Let us make them extraordinary with Coimbatore Event Management."</b></p></center>
+        <div className='scroll'>
         <img className='imgy' src = "imge/childs.jpg" alt = "pizza" height = "180" width = "300"></img>
         <img className='imgy' src = "imge/flower.jpg" alt = "burger" height = "220" width = "350"></img>
         <img className='imgy' src = "imge/color.jpg" alt = "juice" heigth = "400" width = "400"></img>
         <img className='imgy' src = "imge/hbd.jpg" alt = "biriyani" heigth="204" width ="330"></img>
-        <img className='imgy' src = "imge/marr.jpg" alt = "biriyani" heigth = "50" width = "300"></img>
+       <img className='imgy' src = "imge/marr.jpg" alt = "biriyani" heigth = "50" width = "300"></img>
+        </div>
         <br></br><br></br><br></br>
 
       <div className='soonnn'>

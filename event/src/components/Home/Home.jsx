@@ -18,10 +18,9 @@ const Home = () =>{
         <div className='hme'>
             <center><h2 className='ze'>Zero Degree Event Planning and Decor</h2></center>
             <img className='soul' src={marr} alt="h1" width="100%"height = "30%"/>
-            <br></br><br></br><br></br><br></br>
-            <center><h2 className='hmee'>-----Services Provided From Zero Degree-----</h2></center>
             <br></br>
-            <br></br>
+            <center><p className='py'><b className='jey'>"Every event comes once in our life so they give us very precious memories to cherish for a life time."</b></p></center>
+        <center><p className='py'><b className='jey'>" Let us make them extraordinary with Coimbatore Event Management."</b></p></center>
             <div className='hmmmm'>
             <center><h2 className='abt19'>Wedding Events</h2></center><br></br>
             <img src={chair} alt="h1" width="33%"height = "50%"/>

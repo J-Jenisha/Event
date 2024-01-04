@@ -24,6 +24,7 @@
     border-radius: 10px;
     border-image-repeat: repeat;
     transform: transform 0.2s ease-in-out;
+    
   }
   
   .imgy:hover{
@@ -44,14 +45,16 @@
     
   } */
   .soon {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 20px;
+    padding-left: 200px;
     background-color: #ece4e4;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   .soonnn{
     display: flex;
@@ -89,8 +92,8 @@
   }
   .hel{
     align-self: center;
-    font-size: 19px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     color: #555;
 
   }
@@ -109,4 +112,4 @@
   .yem:hover{
     transform: scale(1.05);
   }
-  
+

@@ -15,6 +15,7 @@ const EventRequirementsForm = () => {
   const [eventLocation, setEventLocation] = useState('');
   const [numberOfGuests, setNumberOfGuests] = useState('');
   const [eventType, setEventType] = useState('');
+  // const [budget, setBudget] = useState('');
   const [additionalDetails, setAdditionalDetails] = useState('');
  
   const handleSubmit = (e) => {
@@ -26,6 +27,7 @@ const EventRequirementsForm = () => {
       eventLocation,
       numberOfGuests,
       eventType,
+      // budget,
       additionalDetails,
     };
     console.log('Submitted Data:', eventData);
@@ -35,6 +37,7 @@ const EventRequirementsForm = () => {
     setEventLocation('');
     setNumberOfGuests('');
     setEventType('');
+    // setBudget(''),
     setAdditionalDetails('');
   };
 
@@ -114,6 +117,15 @@ const EventRequirementsForm = () => {
             {/* Add more event types */}
           </select>
         </label>
+        {/* <label className='lll'>
+          Budget:
+          <input className='iii'
+            type="numbers"
+            value={budget}
+            onChange={(e) => setBudget(e.target.value)}
+            required
+          />
+        </label> */}
         <label className='lll'>
           Additional Details:
           <textarea className='te'

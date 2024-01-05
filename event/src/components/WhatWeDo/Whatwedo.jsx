@@ -28,7 +28,7 @@ const Whatwedo = () => {
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            Events
+                                            Price starting at $20
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             We’ll Make Your Next Event Celebration Very Special!

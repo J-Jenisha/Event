@@ -17,6 +17,7 @@ const Navbar=()=>
                 <li className='lin'><Link className="links" to="/bookevents">Book Event</Link></li>
                 <button className='btn'><Link className="link" to="/login">Login</Link></button>
                 <button className='btn'><Link className="link" to="/signup">Signup</Link></button>
+                
             </ul>
         </div>
         </nav>

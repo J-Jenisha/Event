@@ -23,8 +23,7 @@ const backgroundImageStyle = {
   backgroundRepeat: 'no-repeat',
   marginTop:'120px',
   height: '100vh',
-  opacity:'10',
-  
+  // filter: 'blur(1px)',
 };
 
 const Home = () => {
@@ -32,8 +31,10 @@ const Home = () => {
     <div className='hme'>
       
       <div className="background-image" style={backgroundImageStyle}>
-        <h3>Zeo Degree Event Planning and decor</h3>
-        <p>Explore our various event categories...</p>
+      
+        <h3>Zero Degree Event Planning and decor</h3>
+        <center><p className='py'><b className='jey'>"Every event comes once in our life so they give us very precious memories to cherish for a life time."</b></p></center>
+        <center><p className='py'><b className='jey'>" Let us make them extraordinary with Coimbatore Event Management."</b></p></center>
       </div>
 
       {/* Wedding Events */}

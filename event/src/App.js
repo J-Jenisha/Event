@@ -14,7 +14,7 @@ import EventRequirementsForm from './components/Events/Bookevents';
 import Cart from './components/Cart/Cart';
 import Payment from './components/Payment/Payment';
 import ThankYouMessage from './components/Thankyou/ThankyouMessage';
-
+import Main from './components/manage/Manage';
 function App() {
 
   return (
@@ -33,7 +33,7 @@ function App() {
         <Route exact path='/cart' element={<Cart/>} />
         <Route exact path='/payment' element={<Payment/>} />
         <Route exact path='/thankyou' element={<ThankYouMessage/>} />
-        
+        <Route exact path='/manage' element={<Main/>}/> 
         
       </Routes>
       <Footer/>

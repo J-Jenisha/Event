@@ -12,7 +12,7 @@
     font-weight: 500;
   }
   .by{
-   background-color:#ece4e4;
+   background-color:aliceblue;
   }
   .yp{
     color:black;
@@ -35,7 +35,7 @@
   .by{
     border-radius: 30px;
     color: black;
-    background-color :#ece4e4;
+    background-color:aliceblue;
     padding: 10px;
     padding-right: 700px;
   }
@@ -52,7 +52,7 @@
     gap: 20px;
     padding: 20px;
     padding-left: 200px;
-    background-color: #ece4e4;
+    background-color:aliceblue;
     border-radius: 10px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
@@ -62,7 +62,7 @@
     align-items: center;
     gap: 20px;
     padding: 20px;
-    background-color: #ece4e4;
+    background-color:aliceblue;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
